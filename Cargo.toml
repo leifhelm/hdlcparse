@@ -1,0 +1,11 @@
+[package]
+name = "hdlcparse"
+version = "0.1.0"
+edition = "2021"
+authors = ["Jakob Leifhelm"]
+readme = "README.md"
+licence = "MPL-2.0"
+licence-file = "LICENCE"
+
+[dependencies]
+nom = "^7.1"
