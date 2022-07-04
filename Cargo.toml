@@ -4,8 +4,9 @@ version = "1.0.0"
 edition = "2021"
 authors = ["Jakob Leifhelm"]
 readme = "README.md"
-licence = "MPL-2.0"
-licence-file = "LICENCE"
+license = "MPL-2.0"
+license-file = "LICENSE"
+description = "A library for parsing HDLC frames"
 homepage = "https://github.com/leifhelm/hdlcparse"
 repository = "https://github.com/leifhelm/hdlcparse"
 
