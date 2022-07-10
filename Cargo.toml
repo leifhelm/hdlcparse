@@ -5,9 +5,14 @@ edition = "2021"
 authors = ["Jakob Leifhelm"]
 readme = "README.md"
 license = "MPL-2.0"
-description = "A library for parsing HDLC frames"
+description = "A `no_std` library for parsing HDLC frames."
 homepage = "https://github.com/leifhelm/hdlcparse"
 repository = "https://github.com/leifhelm/hdlcparse"
 
 [dependencies]
-nom = "^7.1"
+nom = { version = "^7.1", default-features = false }
+
+[features]
+default = ["llc", "std"]
+std = ["nom/std"]
+llc = []
