@@ -13,6 +13,5 @@ repository = "https://github.com/leifhelm/hdlcparse"
 nom = { version = "^7.1", default-features = false }
 
 [features]
-default = ["llc", "std"]
+default = ["std"]
 std = ["nom/std"]
-llc = []

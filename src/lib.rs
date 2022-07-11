@@ -10,8 +10,6 @@ use core::{fmt, num::NonZeroUsize};
 
 use nom::error::ParseError;
 
-#[cfg(feature = "llc")]
-pub mod llc;
 pub mod type3;
 
 const FLAG: u8 = 0x7E;
